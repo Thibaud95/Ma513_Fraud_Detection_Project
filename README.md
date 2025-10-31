@@ -1,7 +1,8 @@
-Credit Card Fraud Detection 💳🔍
-📋 Project Description
+# Credit Card Fraud Detection 💳🔍
+
+## 📋 Project Description
 This project implements a credit card fraud detection system using machine learning techniques. The objective is to analyze financial transactions and automatically identify fraudulent transactions using different classification algorithms.
-🎯 Objectives
+## 🎯 Objectives
 
 Analyze a credit card transaction dataset
 Preprocess the data to optimize model performance
@@ -9,7 +10,7 @@ Implement and compare different classification algorithms
 Evaluate model performance with appropriate metrics
 Select the best model for fraud detection
 
-📊 Dataset
+## 📊 Dataset
 The project uses the creditcard.csv dataset which contains:
 
 284,807 transactions in total
@@ -22,20 +23,20 @@ Feature Class: Target variable (0 = normal transaction, 1 = fraud)
 
 
 
-🔍 Dataset Characteristics
+## 🔍 Dataset Characteristics
 
 ✅ No missing data
 ⚠️ Highly imbalanced dataset: ~99.83% normal transactions, ~0.17% fraud
 
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 python# Main libraries
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Machine Learning
+## Machine Learning
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -43,7 +44,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
 import xgboost as xgb
 
-# Deep Learning
+## Deep Learning
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
@@ -117,7 +118,7 @@ bash   jupyter notebook fraud-detection.ipynb
 
 Execute cells sequentially to reproduce the analysis
 
-📈 Practical Applications
+## 📈 Practical Applications
 This system can be used by:
 
 Banks: Real-time detection of suspicious transactions
@@ -126,7 +127,7 @@ E-commerce: Protection against payment fraud
 Payment processors: Automatic transaction filtering
 
 
-👥 Team
+## 👥 Team
 Project completed as part of the MA513 - Machine Learning for Cybersecurity course
 Team Members:
 
